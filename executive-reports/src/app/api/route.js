@@ -7,6 +7,7 @@ export async function GET() {
     { id: 'INV-1003', amount: 5200, status: 'later', date: '2025-08-05' },
     { id: 'INV-1004', amount: 780,  status: 'done',    date: '2025-08-18' },
     { id: 'INV-1005', amount: 2100, status: 'pending', date: '2025-08-22' },
+    { id: 'INV-1006', amount: 10000, status: 'done', date: '2025-08-30' },
   ]
 
   return NextResponse.json(invoices)
